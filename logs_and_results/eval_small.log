@@ -1,0 +1,42 @@
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files: 100%|██████████| 12/12 [00:00<00:00, 13304.69it/s]
+  0%|          | 0/31 [00:00<?, ?it/s]Processing:  NER/ACE 2004
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+  3%|▎         | 1/31 [00:03<01:31,  3.06s/it]Processing:  NER/ACE 2004_sample_15000
+Processing:  NER/ACE 2005
+ 10%|▉         | 3/31 [00:05<00:42,  1.53s/it]Processing:  NER/ACE 2005_sample_15000
+Processing:  NER/AnatEM
+ 16%|█▌        | 5/31 [00:10<00:56,  2.16s/it]Processing:  NER/Broad Tweet Corpus
+ 19%|█▉        | 6/31 [00:13<00:59,  2.37s/it]Processing:  NER/CoNLL 2003
+ 23%|██▎       | 7/31 [00:19<01:19,  3.32s/it]Processing:  NER/CoNLL 2003_sample_15000
+Processing:  NER/CrossNER_AI
+ 29%|██▉       | 9/31 [00:20<00:48,  2.18s/it]Processing:  NER/CrossNER_literature
+ 32%|███▏      | 10/31 [00:22<00:41,  1.97s/it]Processing:  NER/CrossNER_music
+ 35%|███▌      | 11/31 [00:23<00:38,  1.94s/it]Processing:  NER/CrossNER_politics
+ 39%|███▊      | 12/31 [00:26<00:38,  2.02s/it]Processing:  NER/CrossNER_science
+ 42%|████▏     | 13/31 [00:28<00:38,  2.15s/it]Processing:  NER/FabNER
+ 45%|████▌     | 14/31 [00:34<00:54,  3.20s/it]Processing:  NER/FindVehicle
+ 48%|████▊     | 15/31 [01:37<05:24, 20.30s/it]Processing:  NER/GENIA_NER
+ 52%|█████▏    | 16/31 [01:41<03:54, 15.60s/it]Processing:  NER/HarveyNER
+ 55%|█████▍    | 17/31 [01:43<02:42, 11.61s/it]Processing:  NER/MultiNERD
+ 58%|█████▊    | 18/31 [02:11<03:34, 16.47s/it]Processing:  NER/Ontonotes
+ 61%|██████▏   | 19/31 [02:32<03:34, 17.87s/it]Processing:  NER/Ontonotes_sample_30000
+Processing:  NER/PolyglotNER
+/workspace/GLiNER/gliner/data_processing/processor.py:495: UserWarning: Sentence of length 2025 has been truncated to 512
+  warnings.warn(f"Sentence of length {len(tokens)} has been truncated to {max_len}")
+/workspace/GLiNER/gliner/data_processing/processor.py:495: UserWarning: Sentence of length 1929 has been truncated to 512
+  warnings.warn(f"Sentence of length {len(tokens)} has been truncated to {max_len}")
+/workspace/GLiNER/gliner/data_processing/processor.py:495: UserWarning: Sentence of length 1201 has been truncated to 512
+  warnings.warn(f"Sentence of length {len(tokens)} has been truncated to {max_len}")
+/workspace/GLiNER/gliner/data_processing/processor.py:495: UserWarning: Sentence of length 1925 has been truncated to 512
+  warnings.warn(f"Sentence of length {len(tokens)} has been truncated to {max_len}")
+ 68%|██████▊   | 21/31 [03:02<02:46, 16.64s/it]Processing:  NER/TweetNER7
+ 71%|███████   | 22/31 [03:04<01:56, 12.91s/it]Processing:  NER/TweetNER7_sample_15000
+Processing:  NER/WikiANN en
+ 77%|███████▋  | 24/31 [03:17<01:11, 10.18s/it]Processing:  NER/WikiNeural
+ 81%|████████  | 25/31 [03:36<01:14, 12.37s/it]Processing:  NER/bc2gm
+ 84%|████████▍ | 26/31 [03:44<00:56, 11.31s/it]Processing:  NER/bc4chemd
+ 87%|████████▋ | 27/31 [04:42<01:33, 23.30s/it]Processing:  NER/bc5cdr
+ 90%|█████████ | 28/31 [04:50<00:57, 19.19s/it]Processing:  NER/mit-movie
+ 94%|█████████▎| 29/31 [04:54<00:29, 14.90s/it]Processing:  NER/mit-restaurant
+ 97%|█████████▋| 30/31 [04:56<00:11, 11.25s/it]Processing:  NER/ncbi
+100%|██████████| 31/31 [04:57<00:00,  8.40s/it]100%|██████████| 31/31 [04:57<00:00,  9.61s/it]

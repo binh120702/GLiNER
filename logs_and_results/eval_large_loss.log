@@ -1,0 +1,22 @@
+config.json not found in /workspace/GLiNER/models_large_loss/checkpoint-50000
+  0%|          | 0/31 [00:00<?, ?it/s]Processing:  NER/ACE 2004
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+  3%|▎         | 1/31 [00:05<02:57,  5.93s/it]Processing:  NER/ACE 2004_sample_15000
+Processing:  NER/ACE 2005
+  6%|▋         | 2/31 [00:10<02:33,  5.28s/it]
+Traceback (most recent call last):
+  File "/workspace/GLiNER/eval.py", line 21, in <module>
+    get_for_all_path(model, -1, args.log_dir, args.data)
+  File "/workspace/GLiNER/gliner/evaluation/evaluate.py", line 126, in get_for_all_path
+    data_name, results, f1 = get_for_one_path(p, model)
+  File "/venv/main/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/workspace/GLiNER/gliner/evaluation/evaluate.py", line 93, in get_for_one_path
+    results, f1 = model.evaluate(test_dataset, flat_ner=flat_ner, threshold=0.5, batch_size=12,
+  File "/workspace/GLiNER/gliner/model.py", line 588, in evaluate
+    decoded_outputs = self.decoder.decode(
+  File "/workspace/GLiNER/gliner/decoding/decoder.py", line 159, in decode
+    span_scores = self.calculate_span_score(
+  File "/workspace/GLiNER/gliner/decoding/decoder.py", line 147, in calculate_span_score
+    combined = torch.cat([ins, start_score.unsqueeze(0), end_score.unsqueeze(0)])
+KeyboardInterrupt
