@@ -9,7 +9,7 @@ GLiNER is a generalist model for NER (Extract any entity types from texts)
 Bài báo cáo này nhằm re-produce lại kết quả bài báo và chạy thử nghiệm trên dataset VLSP 2018.  
 
 # Chi tiết thực nghiệm 
-**(File log training và kết quả evaluation được lưu trong folder code)**
+**(File log training và kết quả evaluation được lưu trong folder code - logs_and_results/)**
 
 ## Danh sách các model nhóm đã tái thực nghiệm:
 
